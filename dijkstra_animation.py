@@ -9,14 +9,15 @@ edges = [
 ("Zerind", "Arad", 75),
 ("Arad", "Sibiu", 140),
 ("Arad", "Timisoara", 118),
+("Sibiu", "Oradea", 151),
+("Sibiu", "Fagaras", 99),
+("Sibiu", "Rimnicu Vilcea", 80),
 ("Timisoara", "Lugoj", 111),
 ("Lugoj", "Mehadia", 70),
 ("Mehadia", "Dobreta", 75),
 ("Dobreta", "Craiova", 120),
 ("Craiova", "Rimnicu Vilcea", 146),
 ("Craiova", "Pitesti", 138),
-("Sibiu", "Fagaras", 99),
-("Sibiu", "Rimnicu Vilcea", 80),
 ("Rimnicu Vilcea", "Pitesti", 97),
 ("Fagaras", "Bucharest", 211),
 ("Pitesti", "Bucharest", 101),
@@ -26,7 +27,7 @@ edges = [
 ("Hirsova", "Eforie", 86),
 ("Urziceni", "Vaslui", 142),
 ("Vaslui", "Iasi", 92),
-("Iasi", "Neamt", 87),
+("Iasi", "Neamt", 87)
 ]
 for u, v, w in edges:
     G.add_edge(u, v, weight=w)
@@ -158,3 +159,4 @@ else:
     print("Tidak ditemukan path dari", start_city, "ke", goal_city)
 
 plt.show()
+
