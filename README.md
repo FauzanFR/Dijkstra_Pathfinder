@@ -1,4 +1,4 @@
-# Dijkstra_Pathfinder
+# Dijkstra Pathfinder
 A Python implementation of Dijkstra's algorithm with step-by-step visualization using NetworkX and Matplotlib.
 
 ## Overview
